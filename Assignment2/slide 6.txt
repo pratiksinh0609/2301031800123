@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide 6</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .slide {
+            width: 300px; /* Adjust width as needed */
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1em;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide">
+        <input type="text" placeholder="Name\nYour Name, e.g: John Doe">
+        <input type="email" placeholder="Email\nYour email, e.g: johndoe@gmail.com">
+        <input type="tel" placeholder="Phone Number\nYour phone number, e.g: +01 112 xxx xxx">
+        <input type="password" placeholder="Confirm Password\nYour password, at least 8 character.">
+        <input type="password" placeholder="Re-type your password">
+        <button>Register</button>
+    </div>
+</body>
+</html>

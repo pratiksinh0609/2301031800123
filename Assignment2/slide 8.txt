@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide 8</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .slide {
+            padding: 20px;
+        }
+        .location {
+            font-size: 0.9em;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+        .categories {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        .category {
+            background-color: #f0f0f0; /* Adjust color as needed */
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.8em;
+        }
+        .experiments {
+            display: grid;
+            grid-template-columns: 1fr; /* Adjust columns as needed */
+            gap: 20px;
+        }
+        .experiment {
+            border: 1px solid #ccc; /* Adjust border as needed */
+            padding: 10px;
+        }
+        .experiment h2 {
+            font-size: 1em;
+        }
+        .experiment p {
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide">
+        <p class="location">IN, Gujarat</p>
+        <input type="text" placeholder="Search Experiment Name......">
+        <div class="categories">
+            <div class="category">Science</div>
+            <div class="category">SPACE Technology</div>
+            <div class="category">AL</div>
+            <div class="category">Chemic</div>
+            <div class="category">Near from you</div>
+            <div>See more</div>
+        </div>
+        <div class="experiments">
+            <div class="experiment">
+                <img src="placeholder-image.jpg" alt="Chemical Reduction">
+                <h2>Chemical Reduction</h2>
+                <p>Virtual Lab</p>
+                <p>&gt;</p>
+            </div>
+            <div class="experiment">
+                <img src="placeholder-image.jpg" alt="Gravity Physics">
+                <h2>Gravity Physics</h2>
+                <p>Virtual Gravity</p>
+                <p>Best for you</p>
+            </div>
+            <div class="experiment">
+                 <img src="placeholder-image.jpg" alt="Chemical Bonding">
+                <h2>Chemical Bonding</h2>
+                <p>Virtual Labs</p>
+                <p>6000 Students</p>
+            </div>
+            <div class="experiment">
+                 <img src="placeholder-image.jpg" alt="Chemical Bonding">
+                <h2>Chemical Bonding</h2>
+                <p>Virtual Labs</p>
+                <p>5000 Students</p>
+            </div>
+            <div>See more</div>
+        </div>
+    </div>
+</body>
+</html>

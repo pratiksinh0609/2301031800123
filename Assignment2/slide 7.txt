@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide 7</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .slide {
+            text-align: center;
+        }
+        h1 {
+            font-size: 1.5em;
+        }
+        .code-inputs {
+            display: flex;
+            justify-content: center;
+            gap: 5px; /* Adjust gap as needed */
+            margin-bottom: 10px;
+        }
+        .code-inputs input {
+            width: 40px; /* Adjust width as needed */
+            height: 40px; /* Adjust height as needed */
+            text-align: center;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1em;
+        }
+        p {
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide">
+        <h1>Almost there</h1>
+        <p>Please enter the 6-digit code sent to your email XYZ.123@Gmail.Com for verification.</p>
+        <div class="code-inputs">
+            <input type="text" maxlength="1">
+            <input type="text" maxlength="1">
+            <input type="text" maxlength="1">
+            <input type="text" maxlength="1">
+            <input type="text" maxlength="1">
+            <input type="text" maxlength="1">
+        </div>
+        <button>Verify</button>
+        <p>Didn't receive any code? Resend Again</p>
+        <p>Request new code in 00:30s</p>
+    </div>
+</body>
+</html>

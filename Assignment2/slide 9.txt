@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide 9</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .slide {
+            width: 300px; /* Adjust width as needed */
+        }
+        h1 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1em;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide">
+        <h1>Payment Method</h1>
+        <h2>Credit Card Details</h2>
+        <input type="text" placeholder="Name on card">
+        <input type="text" placeholder="Card number">
+        <input type="text" placeholder="Card expiration">
+        <input type="text" placeholder="Card Security Code">
+        <h2>Billing address</h2>
+        <input type="text" placeholder="Country">
+        <input type="text" placeholder="Address">
+        <input type="text" placeholder="City">
+        <input type="text" placeholder="State">
+        <input type="text" placeholder="ZIP CODE">
+        <div>
+            <span>VISA</span>
+            <span>DISCOVER</span>
+        </div>
+        <h2>Contact information</h2>
+        <input type="email" placeholder="Email">
+        <input type="tel" placeholder="Phone">
+        <button>Pay</button>
+    </div>
+</body>
+</html>
